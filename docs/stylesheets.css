@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* typography styles */
+h1, h2, h3{
+    font-weight: normal;
+}
+
+/* Modular Scale 1.4 
+	.714
+	1
+	1.4
+	1.96
+ */
+
+html
+    {
+        font-family: adobe-jenson-pro, Georgia;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.4em;
+    }
+
+
+h1, h2, h3 {
+   
+    font-family: adobe-jenson-pro-display, Georgia;
+    letter-spacing: .07rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 40rem) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 2.6rem;
+    }
+    
+}
+
+
+
